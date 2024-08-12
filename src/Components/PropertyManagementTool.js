@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Building, Users, DollarSign, Briefcase } from 'lucide-react';
 
 const PropertyManagementTool = () => {
-  const [properties, setProperties] = useState([
+  const [properties] = useState([
     { id: 1, name: 'Sunset Apartments', units: 50, occupancy: 90, revenue: 75000 },
     { id: 2, name: 'Downtown Lofts', units: 30, occupancy: 85, revenue: 45000 },
     { id: 3, name: 'Parkview Residences', units: 75, occupancy: 95, revenue: 112500 },
