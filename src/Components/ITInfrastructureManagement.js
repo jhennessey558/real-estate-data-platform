@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import PropTypes from 'prop-types';
 import { Server, Plus, Activity } from 'lucide-react';
+
 
 const ITInfrastructureManagement = () => {
   const [servers, setServers] = useState([
@@ -89,8 +89,7 @@ const ITInfrastructureManagement = () => {
   );
 };
 
-ITInfrastructureManagement.propTypes = {
-  // If you need to pass props in the future, define them here
-};
+
 
 export default ITInfrastructureManagement;
+

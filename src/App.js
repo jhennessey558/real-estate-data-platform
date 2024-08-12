@@ -196,14 +196,15 @@ const Footer = () => (
       <div className="flex justify-between items-center">
         <p>&copy; 2024 Reality. All rights reserved.</p>
         <div className="flex space-x-4">
-          <a href="#" className="text-gray-400 hover:text-gray-300">Privacy Policy</a>
-          <a href="#" className="text-gray-400 hover:text-gray-300">Terms of Service</a>
-          <a href="#" className="text-gray-400 hover:text-gray-300">Contact Us</a>
+          <a href="/privacy-policy" className="text-gray-400 hover:text-gray-300">Privacy Policy</a>
+          <a href="/terms-of-service" className="text-gray-400 hover:text-gray-300">Terms of Service</a>
+          <a href="/contact-us" className="text-gray-400 hover:text-gray-300">Contact Us</a>
         </div>
       </div>
     </div>
   </footer>
 );
+
 
 function App() {
   return (
