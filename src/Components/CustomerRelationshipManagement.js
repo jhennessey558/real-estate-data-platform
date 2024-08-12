@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts';
-import { Users, UserPlus, PieChart as PieChartIcon, Search, Calendar, Mail, Phone, Edit, Trash2, Filter } from 'lucide-react';
+import { Users, UserPlus, PieChart as PieChartIcon, Edit, Trash2, Filter } from 'lucide-react';
 
 // Mock data for customers
 const initialCustomers = [
